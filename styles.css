@@ -1,0 +1,152 @@
+body{
+    color: #40540e;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+font-size: 5.625rem;
+color: #66bfbf;
+margin-top: 50px;
+font-family: 'Sacramento', cursive;
+margin-bottom: 0%;
+padding-bottom: 10px;
+
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem ;
+    color: #66bfbf;
+}
+h3{
+    font-family: 'Merriweather', serif;
+    color: #11999e;
+}
+
+a{
+    color: #9e1111;
+
+}
+
+hr{
+    margin: 100px auto;
+    
+    width: 5%;
+    border-color: #c3f7f7;
+    border-style:dotted;
+    border-width: 5px;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+
+
+}
+/* border width: 0 10 20 30*... can be set for image background as well as well as it size, padding, 
+margin(element spacing outside the border*/
+
+
+.middle-container{
+    padding: 100px 0 0 0;
+}
+.small_text{
+    color: #40514e;
+}
+.factory-img{
+    width: 25%;
+    margin-right: 30px;
+    float: left;
+    
+}
+.production-img{
+    width: 25%;
+    margin-left: 30px;
+    float: right;
+}
+
+
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.forex{
+
+    font-weight: normal;
+}
+.top-cloud{
+    position: relative;
+    left:25%; 
+
+}
+.bottom-cloud{
+    position:absolute;
+    left: 200px;
+    bottom: 150px;
+}
+
+
+
+
+
+.top{
+    background-color: rgb(243, 212, 75);
+    padding-top: 100px;
+}
+.footer-link{
+    
+    color: #9e1111;
+    padding: 20px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
+
+.final{
+    color:#eaf6f6;
+    padding: 0 0 20px 0;
+    
+}
+.bottom-container{
+   
+    background-color: #11999E;
+}
+.BUTTON_SON {
+    margin-top: 30px;
+    -webkit-border-radius: 19px;
+    -moz-border-radius: 19px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: "montserrat";
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px;
+    background-color: #11999E;
+    /*-webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000;
+    text-shadow: 1px 1px 20px #000000;*/
+    border: solid #11999E 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_SON:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+ }
